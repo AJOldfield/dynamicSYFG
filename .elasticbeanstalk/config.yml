@@ -1,0 +1,12 @@
+branch-defaults:
+  default:
+    environment: SYFG10-dev
+  master:
+    environment: SYFG10-dev
+global:
+  application_name: SYFG10
+  default_ec2_keyname: null
+  default_platform: PHP 5.6
+  default_region: ap-southeast-2
+  profile: eb-cli
+  sc: null
