@@ -160,7 +160,7 @@ th {
     <!-- Main Content -->
     <div class="container">
         <?php require_once('./config.php');?>
-<form action="/charge" method="POST">
+<form action="./charge.php" method="POST">
   <script
     src="https://checkout.stripe.com/checkout.js" class="stripe-button"
     data-key="pk_test_DoA7STF9SaA7WWjDgBByqnsj"
