@@ -160,7 +160,7 @@ th {
     <!-- Main Content -->
     <div class="container">
         <?php require_once('./config.php');?>
-<form action="/charge.php" method="POST">
+<form action="charge.php" method="POST">
   <script
     src="https://checkout.stripe.com/checkout.js" class="stripe-button"
     data-key="pk_test_DoA7STF9SaA7WWjDgBByqnsj"
@@ -171,7 +171,7 @@ th {
     data-amount="2000" // Amount in cents charged to the user
     data-locale="auto"
     data-panel-label="Pay for listing"
-    data-email=""> // Pre-fill this when you know how!
+    data-email="andrew@shareyourfarminggear.com.au"> // Pre-fill this when you know how!
   </script>
 </form>
 
