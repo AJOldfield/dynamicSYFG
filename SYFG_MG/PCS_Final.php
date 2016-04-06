@@ -1,0 +1,4 @@
+<div class="header"><h1>Listing Contracting Services 3/3</h1></div>
+<div class="content"><br><form action="#" method="post" enctype="multipart/form-data"><input type="hidden" name="Search_Type" value="PCS_UPLOAD">
+<?php 
+form_draw_block('Dates Available', array('contracting_available_from', 'contracting_available_to'));echo'<br>';form_draw_block('Job Size', array('contracting_jobsize_1', 'contracting_distance_1'));echo'<br>';?><fieldset><legend style=\"border: none; width: auto;\"><strong>&nbsp;Upload images&nbsp;</strong></legend>Select image to upload:<br><input type="file" name="imagesUploaded[]" id="imagesUploaded[]" multiple></fieldset><br><input type="submit" name="submit" value="Next" /></form></div>
